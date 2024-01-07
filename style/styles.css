@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+/* footer part */
+footer{
+    background-color: black;
+}
+.footer-container{
+    max-width: 83%;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 650px;
+    justify-content: space-between;
+}
+.address{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    max-width: 400px;
+}
+.contact{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.contact-item{
+    display: flex;
+    gap: 10px;
+}
+.footer-container hr{
+    margin: 50px 0px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
