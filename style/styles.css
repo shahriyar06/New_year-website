@@ -4,6 +4,33 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+/* header body */
+.banner-container{
+    max-width: 83%;
+    margin: 0 auto 120px;
+    border-radius: 16px;
+    background-image: url('../assets/Banner\ img.png');    
+}
+.banner-size{
+    padding: 177px 0;
+}
+.banner-size >h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.banner-size >h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    max-width: 20%;
+    margin: 0 auto;
+}
 /* main body */
 /* main Party section */
 .party{
