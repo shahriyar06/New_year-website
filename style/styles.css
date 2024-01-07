@@ -32,6 +32,35 @@ body{
     margin: 0 auto;
 }
 /* main body */
+/* main discount part */
+.discount-container{
+    max-width: 60%;
+    margin: 0 auto 120px;
+}
+.discount >h1{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.discount >h3{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.discount>h2{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.image{
+    width: 800px;
+    height: 500px;
+}
 /* main Party section */
 .party{
     max-width: 83%;
