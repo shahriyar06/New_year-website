@@ -190,6 +190,9 @@ footer{
 .media-icon{
     text-align: center;
 }
+.media-icon>img{
+    margin-right: 24px;
+}
 .copy-right{
     display: flex;
     justify-content: space-between;
