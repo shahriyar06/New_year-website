@@ -207,6 +207,7 @@ body{
     text-align: center;
     font-size: 72px;
     font-weight: 900;
+    margin: 5px 0 28px;
 }
 .holiday-info > h2 >span{
     color: #F00;
@@ -223,18 +224,17 @@ body{
     margin: 0 auto 64px;
 }
 .holiday-container > .holiday-img{
-    display: flex;
-    background-image: url('../assets/Rectangle\ 1.png');
-    margin: 0;
-    background-repeat: no-repeat;
-    background-position: top right;
-    
+    display: flex;   
 }
 .holiday-img > .box-image{
     max-width: 700px;
 }
 .holiday-discount{
-    padding: 70px 350px 60px 50px;
+    background-image: url('../assets/Rectangle\ 1.png');
+    margin: 5px 0 0 0;
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 68px 264px 60px 50px;
 }
 /* main portfolio section */
 .portfolio-container{
@@ -262,6 +262,9 @@ body{
 }
 .portfolio-container >.prot-image{
     max-width: 1320px;
+}
+.prot-image img{
+    padding: 6px;
 }
 .img-container{
     width: 424px;
@@ -297,8 +300,9 @@ body{
     max-width: 67%;
     margin: 22px auto 50px;
 }
-.input-button{
+.subscribe-container > .input-button{
     text-align: center;
+    position: relative;
 }
 .input-button > input{
     width: 648px;
@@ -306,6 +310,11 @@ body{
     border-radius: 50px 0 0 50px;
     background: #FFF;
     border: 0;
+    position: relative;
+    left: 5px;
+}
+.input-button > ::placeholder{
+    padding-left: 30px;
 }
 .input-button > button{
     width: 210px;
