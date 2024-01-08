@@ -9,6 +9,7 @@ body{
     max-width: 83%;
     margin: 0 auto 120px;
     border-radius: 16px;
+    background-repeat: no-repeat;
     background-image: url('../assets/Banner\ img.png');    
 }
 .banner-size{
@@ -66,6 +67,7 @@ body{
     max-width: 83%;
     margin: 0 auto 120px;
     border-radius: 16px;
+    background-repeat: no-repeat;
     background-image: url('../assets/Vectorrr.png');    
 }
 .party-deco{
@@ -117,7 +119,56 @@ body{
     color: #FFF;
     margin: 50px auto 0;
 }
+/* main offer section */
+.offer-container{
+    max-width: 83%;
+    margin: 0 auto 120px;
+    display: flex;
+    align-items: center;
+}
+.offer-details{
+    max-width: 400px;
+}
+.offer-details >h2{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.offer-details > h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.offer-details >p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.offer-image{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
+    margin: 0 100px 0 40px;
+    max-width: 50%;
+}
 
+.offer-description > h1{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+.offer-description > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 300px;
+}
+.offer-description > img{
+    width: 140px;
+    height: 140px;   
+}
 /* main subscribe part */
 .subscribe-container{
     max-width: 83%;
