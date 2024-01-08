@@ -105,6 +105,9 @@ body{
     font-weight: 700;
     margin-left: 30px;
 }
+.party-info > a:hover{
+    color: #F00;
+}
 .party-image{
     max-width: 20%;
     margin-right: 138px;
@@ -134,6 +137,10 @@ body{
     border-radius: 8px;
     color: #FFF;
     margin: 50px auto 0;
+}
+.time-info > button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.738);
 }
 /* main offer section */
 .offer-container{
@@ -272,6 +279,12 @@ body{
     width: 424px;
     height: 450px;
 }
+.img-container:hover{
+    cursor: pointer;
+    background-color: #0000002b;
+    border-radius: 18px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.727);
+}
 /* main subscribe part */
 .subscribe-container{
     max-width: 1320px;
@@ -331,6 +344,10 @@ body{
     font-size: 20px;
     font-weight: 600;
     padding-bottom: 6px;
+}
+.input-button > button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.738);
 }
 /* footer part */
 footer{
