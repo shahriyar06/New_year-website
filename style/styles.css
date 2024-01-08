@@ -15,14 +15,15 @@ body{
 .banner-size{
     padding: 177px 0;
 }
-.banner-size >h1{
+.banner-size > h1{
     color: #FFF;
     text-align: center;
-    font-size: 72px;
+    font-size: 85px;
     font-weight: 900;
     line-height: 95px;
     max-width: 50%;
-    margin: 0 auto;
+    margin: 15px auto 0;
+    
 }
 .banner-size >h2{
     color: #FFF;
@@ -326,9 +327,10 @@ body{
     color: #FFF;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
-    border: 5px solid #F00;
+    border: 0;
     font-size: 20px;
     font-weight: 600;
+    padding-bottom: 6px;
 }
 /* footer part */
 footer{
@@ -344,12 +346,12 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
-.address{
+.address > p{
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
-    max-width: 450px;
+    max-width: 400px;
 }
 .contact{
     padding-right: 140px;
