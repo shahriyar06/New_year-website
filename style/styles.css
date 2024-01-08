@@ -95,6 +95,7 @@ body{
     font-weight: 400;
     line-height: 30px;
     max-width: 100%;
+    margin-right: 5px;
     margin-bottom: 48px;
 }
 .party-info > a{
@@ -111,6 +112,8 @@ body{
 .party-image{
     max-width: 20%;
     margin-right: 138px;
+    padding-left: 20px;
+    margin-left: 20px;
 }
 /* main time section */
 .time-container{
@@ -295,6 +298,7 @@ body{
 }
 .image-email{
     text-align: center;
+    margin-bottom: 10px;
 }
 .image{
     width: 150px;
@@ -392,6 +396,11 @@ footer{
 }
 .media-icon>img{
     margin-right: 24px;
+}
+.media-icon > img:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 30px rgba(153, 153, 153, 0.832);
+    border-radius: 64px;
 }
 .copy-right{
     display: flex;
