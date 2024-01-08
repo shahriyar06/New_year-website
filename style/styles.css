@@ -247,11 +247,10 @@ body{
 }
 .portfolio-container >.prot-image{
     max-width: 1320px;
-    gap: 24px;
 }
 .img-container{
-    width: 325px;
-    height: 350px;
+    width: 424px;
+    height: 450px;
 }
 /* main subscribe part */
 .subscribe-container{
@@ -261,10 +260,14 @@ body{
     background-color: rgba(255, 0, 0, 0.05);
     padding: 80px 0;
 }
-.image{
+.image-email{
     text-align: center;
 }
-#headline{
+.image{
+    width: 150px;
+    height: 150px;
+}
+.headline{
     color: #070211;
     text-align: center;
     font-size: 48px;
@@ -280,8 +283,22 @@ body{
     margin: 22px auto 50px;
 }
 .input-button{
-    max-width: 50%;
-    margin: 0 auto;
+    text-align: center;
+}
+.input-button > input{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    border: 0;
+}
+.input-button > button{
+    width: 210px;
+    height: 72px;
+    color: #FFF;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: 0;
 }
 /* footer part */
 footer{
