@@ -161,8 +161,8 @@ body{
     border-radius: 463px;
     border: 15px solid #F00;
     padding: 20px;
-    margin: 0 100px 0 40px;
-    max-width: 50%;
+    margin: 0 100px 0 100px;
+    max-width: 60%;
 }
 .offer-description > h1{
     color: #F00;
