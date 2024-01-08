@@ -173,6 +173,39 @@ body{
     height: 140px;
     margin-top: 10px;   
 }
+/* main holiday section */
+
+/* main portfolio section */
+.portfolio-container{
+    max-width: 83%;
+    margin: 0 auto 120px;
+}
+.port-info > h3{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.port-info > h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0 32px;
+}
+.port-info > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    max-width: 70%;
+}
+.portfolio-container >.prot-image{
+    max-width: 83%;
+    gap: 24px;
+}
+.img-container{
+    width: 325px;
+    height: 350px;
+}
 /* main subscribe part */
 .subscribe-container{
     max-width: 83%;
@@ -183,7 +216,6 @@ body{
 }
 .image{
     text-align: center;
-    margin-bottom: 45px;
 }
 #headline{
     color: #070211;
